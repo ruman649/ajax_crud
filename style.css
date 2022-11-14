@@ -1,0 +1,136 @@
+#form {
+    padding: 10px;
+    background-color: aqua;
+    color: brown;
+    text-align: center;
+    font-size: larger;
+}
+
+#load {
+    font-size: large;
+    background-color: #64be0a;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#full_name,
+#age {
+    padding: 5px;
+}
+
+#form #submit {
+    font-size: large;
+    background-color: #64be0a;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#form #submit:hover,
+#load:hover {
+    background-color: #74d811;
+}
+
+#edit_btn {
+    background-color: rgb(224, 114, 11);
+    padding: 5px 10px;
+    font-size: larger;
+    font-weight: 400;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+#edit_btn:hover{
+    background-color: rgb(241, 176, 54);
+}
+
+#delete_btn {
+    background-color: rgb(245, 69, 69);
+    padding: 5px 10px;
+    font-size: larger;
+    color: white;
+    font-weight: 400;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#delete_btn:hover{
+    background-color: red;
+}
+
+
+.edit_box{
+    text-align: center;
+    background-color: rgba(34, 23, 23, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.edit_box h1{
+    border-bottom: 2px;
+
+}
+
+.edit_form{
+    background-color: aqua;
+    width: 40%;
+    position: relative;
+    left: calc(50% - 20%);
+    top: 20%;
+    padding: 10px;
+}
+
+.x{
+    position: relative;
+    right: -268px;
+    top: -10px;
+    background-color: crimson;
+    font-size: large;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.x:hover{
+    background: rgb(252, 51, 91);
+}
+#esubmit {
+    font-size: large;
+    background-color: #64be0a;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+ #esubmit:hover{
+    background-color: #74d811;
+}
+#delete_id {
+    font-size: large;
+    background-color: #f80a0a;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+ #delete_id:hover{
+    background-color: #f35f5f;
+}
+
